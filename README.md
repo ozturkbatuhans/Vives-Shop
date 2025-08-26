@@ -27,29 +27,31 @@ Administrators can manage shop items with full **CRUD** functionality.
 ---
 
 ## Project Structure
-VivesShop/
-│
-├── Controllers/ # MVC Controllers
-│ ├── HomeController.cs → Home page & shop overview
-│ ├── CartController.cs → Shopping cart logic
-│ └── ShopItemsController.cs → CRUD for shop items
-│
-├── Data/
-│ ├── VivesShopContext.cs → EF Core database context
-│ └── Migrations/ → Database migrations
-│
-├── Models/
-│ └── ShopItem.cs → Data model
-│
-├── Views/
-│ ├── Home/ → Home & Privacy pages
-│ ├── Cart/ → Cart & checkout views
-│ └── ShopItems/ → CRUD views for items
-│
-├── wwwroot/ # Static files (css, js, lib)
-├── appsettings.json # Configuration (DB connection)
-├── Program.cs # Application startup
-└── VivesShop.db # SQLite database file
+
+
+    VivesShop/
+    │
+    ├── Controllers/ # MVC Controllers
+    │ ├── HomeController.cs → Home page & shop overview
+    │ ├── CartController.cs → Shopping cart logic
+    │ └── ShopItemsController.cs → CRUD for shop items
+    │
+    ├── Data/
+    │ ├── VivesShopContext.cs → EF Core database context
+    │ └── Migrations/ → Database migrations
+    │
+    ├── Models/
+    │ └── ShopItem.cs → Data model
+    │
+    ├── Views/
+    │ ├── Home/ → Home & Privacy pages
+    │ ├── Cart/ → Cart & checkout views
+    │ └── ShopItems/ → CRUD views for items
+    │
+    ├── wwwroot/ # Static files (css, js, lib)
+    ├── appsettings.json # Configuration (DB connection)
+    ├── Program.cs # Application startup
+    └── VivesShop.db # SQLite database file
 
 ## How to Run
 
